@@ -23,7 +23,7 @@ class Student{
         }
 };
 
-int Student::count = 0; // initialize static member variable
+int Student::count; // initialize static member variable // by default initialised to 0 whenever an object is created
 
 int main() {
     Student s1, s2, s3; // create three Student objects
