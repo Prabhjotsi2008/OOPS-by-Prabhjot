@@ -31,6 +31,9 @@ int main() {
     Number n1;
     n1.setNum();
     n1.reverseNum();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     
     return 0;
 }

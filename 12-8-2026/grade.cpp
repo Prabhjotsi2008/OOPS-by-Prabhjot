@@ -40,6 +40,9 @@ int main() {
     Grade grade;
     grade.setMarks();
     grade.getGrade();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     
     return 0;
 }

@@ -28,5 +28,8 @@ int main() {
     Factorial f;
     f.setNum();
     f.getFactorial();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     return 0;
 }

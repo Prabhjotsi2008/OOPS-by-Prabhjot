@@ -27,5 +27,9 @@ int main() {
     Number n;
     n.setData();
     n.getGreatest();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
+    
     return 0;
 }
