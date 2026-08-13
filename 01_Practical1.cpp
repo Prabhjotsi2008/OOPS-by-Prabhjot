@@ -29,8 +29,11 @@ int main() {
     s1.name = "Prabhjot Singh";
     s1.rollNo = 2514143;
     s1.branch = "CSE";
-    s1.section = 'E';
+    s1.section = 'D';
 
     s1.displayDetails();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     return 0;
 }
