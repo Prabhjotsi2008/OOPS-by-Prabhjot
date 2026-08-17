@@ -34,7 +34,7 @@ class Student{
             cout << "\nStudent's Details" << endl;
             cout << "Name: " << name << endl;
             cout << "Roll No: " << rollNo << endl;
-            cout << "Percentage: " << calcPercentage() << "%" << endl; // use of nested member function
+            cout << "Percentage: " << calcPercentage() << " %" << endl; // use of nested member function
         }
 };
 
@@ -42,5 +42,8 @@ int main() {
     Student s1;
     s1.getData();
     s1.displayData();
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     return 0;
 }
