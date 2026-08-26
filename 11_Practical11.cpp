@@ -11,7 +11,7 @@ class Student{
 
     public:
         void getData(){
-            cout << "Enter Name: ";
+            cout << "\nEnter Name: ";
             cin >> name;
             cout << "Enter Roll No: ";
             cin >> rollNo;
@@ -19,7 +19,7 @@ class Student{
         }
 
         void getCount(){
-            cout << "Total Students: " << count << endl;
+            cout << "\nTotal Students: " << count << endl;
         }
 };
 
@@ -38,5 +38,8 @@ int main() {
     s3.getData();
 
     s1.getCount(); // 3
+
+    cout << "\nName: Prabhjot Singh" << endl;
+    cout << "URN: 2514143" << endl;
     return 0;
 }
