@@ -9,7 +9,7 @@ class Student{
         int rollNo;
         Student(){ // default constructor
             name = "XYZ";
-            rollNo = 0;
+            rollNo = 101;
         }
         void display(){
             cout << "\nStudent's Details" << endl;
