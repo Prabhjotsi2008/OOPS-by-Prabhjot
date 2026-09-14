@@ -1,54 +1,36 @@
 #include <iostream>
-#include <cstring>
-
 using namespace std;
 
-// class String{
-//     char* name;
-//     int length;
-    
-//     public:
-//         String(){
-//             length = 0;
-//             name = new char[length+1];
-//         }
-
-//         String(const char* str){
-//             length = strlen(str);
-//             name = new char[length+1];
-//             strcpy(name,str);
-//         }
-
-//         void display(){
-//             cout << "Name: " << name << endl;
-//         }
-// };
-
-class Employee{
-    double* salary;
+class Array{
+    int* data;
+    int length;
 
     public:
-
-        Employee(double s){
-            salary = new double(s);
-            cout << "\nDynamic Constructor Called" << endl;
+        Array(int l){
+            length = l;
+            data = new int[length];
+            for(int i=0; i<l; i++){
+                cout << "Enter Value: ";
+                cin >> data[i];
+            }
         }
 
         void display(){
-            cout << "Salary: Rs. " << *salary << endl; 
+            cout << "\nArray: ";
+            for(int i=0; i<length;i++){
+                cout << data[i] << " ";
+            }
+            cout << endl;
         }
 
-        ~Employee(){
-            delete salary;
+        ~Array(){
+            delete[] data;
         }
 };
 
 int main() {
-    Employee e1(55000);
-    e1.display();
-
-    Employee e2(40000);
-    e2.display();
+    Array a1(3);
+    a1.display();
 
     cout << "\nName: Prabhjot Singh" << endl;
     cout << "URN: 2514143" << endl;
